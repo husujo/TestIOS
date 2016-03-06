@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *title;
 
 // where properties go yay from github from kbabe
+@property (weak, nonatomic) IBOutlet UIPageControl *indexDots;
 
 @end
 
