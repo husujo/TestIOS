@@ -11,6 +11,7 @@
 @interface ViewController ()
 
 // where properties go yay from github from kbabe
+@property (weak, nonatomic) IBOutlet UIPageControl *indexDots;
 
 @end
 
@@ -20,6 +21,7 @@
     [super viewDidLoad];
     printf("Hello World");
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {
