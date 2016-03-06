@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+// where properties go
+
 @end
 
 @implementation ViewController
