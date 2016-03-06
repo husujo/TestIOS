@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *title;
+
 // where properties go yay from github from kbabe
 
 @end
@@ -20,6 +22,9 @@
     [super viewDidLoad];
     printf("Hello World");
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    //[self.title setText:(@"heyyy")];
 }
 
 - (void)didReceiveMemoryWarning {
