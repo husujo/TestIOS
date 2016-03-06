@@ -10,7 +10,7 @@
 
 @interface ViewController ()
 
-// where properties go yay
+// where properties go yay from github
 
 @end
 
